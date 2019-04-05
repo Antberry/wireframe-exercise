@@ -1,27 +1,32 @@
-nav{
-  background-color: dimgray;
-  height: 100px;
+body{
+  width: 965px;
+  height: 1000px;
+}
+
+header{
   text-align: center;
+  width: 960px;
+  background-color: dimgray;
 }
-nav img{
-  margin-top: 15px;
+
+li{
+  display: inline-block;
   margin-left: 20px;
+  vertical-align: middle;
 }
 
-div {
-margin-left: 70px;
-width: 75px;
-display: flex;
+div p{
+  width: 400px;
+  height: 300px;
+  margin-top: 30px;
+  overflow-y: scroll;
 }
-
-div a{
-  padding-top: 40px;
-  width: 250px;
-}
-
 button{
-  position: absolute;
-  top: 250px;
-  left:0;
-  width: 100px;
+width: 200px;
+height: 50px;
+}
+footer{
+  width: 960px;
+  height: 75px;
+  background-color: dimgray;
 }
