@@ -1,0 +1,74 @@
+/* Whole Page */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header */
+header {
+  background: rgb(65, 63, 63);
+}
+
+nav{
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* main */
+main{
+  width: 960px;
+  margin: 30px auto;
+}
+
+
+/* main: sub-banners */
+main li{
+  float: left;
+  margin: 30px 30px 30px 0px;
+}
+main li:last-child{
+  margin-right: 0px;
+}
+
+/* main: featured sectiom */
+
+section img{
+  float: left;
+  margin-right: 30px;
+}
+div {
+  width: 450px;
+  float: left;
+}
+ h2{
+   font-size: 20px;
+   margin-bottom: 10px;
+ }
+ p{
+   overflow-y: auto;
+   height: 320px;
+   font-style: italic;
+   margin-bottom: 10px;
+ }
+ section button{
+   border: none;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: black;
+   color: whitesmoke;
+   font-size: 15px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 350ms;
+
+ }
+ button:hover{
+   background: green;
+ }
+/*footer */ 
+footer{
+  clear: both;
+  background:rgb(65, 63, 63);
+  height: 100px;
+}
